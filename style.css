@@ -10,13 +10,13 @@ html {
 
 @font-face {
   font-family: RotaSemibold; /* Имя шрифта */
-  src: url(/fonts/Rota/Rota-SemiBold.otf); /* Путь к файлу со шрифтом */
+  src: url(fonts/Rota/Rota-SemiBold.otf); /* Путь к файлу со шрифтом */
   color: #222222;
 }
 
 @font-face {
   font-family: RotaNormal; /* Имя шрифта */
-  src: url(/fonts/Rota/Rota-Light.otf); /* Путь к файлу со шрифтом */
+  src: url(fonts/Rota/Rota-Light.otf); /* Путь к файлу со шрифтом */
   color: #222222;
 }
 
@@ -347,15 +347,15 @@ header {
 }
 
 .soc_media {
-  background-image: url(/PNG/Rectangle13.png);
+  background-image: url(PNG/Rectangle13.png);
 }
 
 .case_women {
-  background-image: url(/PNG/Rectangle14.png);
+  background-image: url(PNG/Rectangle14.png);
 }
 
 .case_cube {
-  background-image: url(/PNG/Rectangle15.png);
+  background-image: url(PNG/Rectangle15.png);
 }
 
 .third-block {
@@ -609,7 +609,7 @@ header {
 }
 
 .seventh_block_ul li {
-  background-image: url(/SVG/Rectangle38.svg);
+  background-image: url(SVG/Rectangle38.svg);
   padding-left: 4rem;
   background-position: 0;
   background-size: 2.6rem 1.6rem;
