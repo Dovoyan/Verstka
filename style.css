@@ -246,7 +246,7 @@ header {
 
 .btn__text {
   /* identical to box height */
-
+  font-family: RotaNormal;
   text-transform: lowercase;
 }
 
@@ -295,6 +295,7 @@ header {
 }
 
 .switcher__text {
+  font-family: RotaNormal;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -707,6 +708,7 @@ header {
 }
 
 .second_seventh_block_main_text_first {
+  font-family: RotaNormal;
   width: 40rem;
 }
 
@@ -755,7 +757,7 @@ header {
 }
 
 .advantage_picture {
-  height: 23.3rem;
+  height: 247px;
 }
 
 .advantage_text {
@@ -763,7 +765,6 @@ header {
   line-height: 27px;
   letter-spacing: 0.035em;
   text-transform: lowercase;
-  margin-top: 1.5rem;
   width: 41rem;
 }
 
@@ -891,6 +892,7 @@ footer {
 }
 
 .footer_bottom {
+  font-family: RotaNormal;
   margin-top: 8rem;
   font-weight: 400;
   font-size: 18px;
@@ -918,6 +920,17 @@ footer {
   width: 21.4rem;
 }
 
+.icon_right_part {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  width: 42%;
+  align-items: flex-end;
+  justify-content: center;
+  row-gap: 30px;
+  margin-top: 42px;
+}
+
 @media (max-width: 990px) {
   .category__top-cell_right {
     width: 69.795455%;
@@ -942,10 +955,6 @@ footer {
     font-size: 11.3438px;
   }
 
-  .advantage_text {
-    margin-top: 25rem;
-  }
-
   .teammate_icon {
     height: 27rem;
   }
@@ -961,6 +970,197 @@ footer {
   .btn img {
     height: 15px;
     width: 15px;
+  }
+
+  .eleventh_block_right_part img {
+    width: 47rem;
+    height: 47rem;
+  }
+
+  .icon_menu svg {
+    max-width: 10px;
+    max-height: 10px;
+  }
+
+  .icon_menu img {
+    max-width: 10px;
+    max-height: 10px;
+  }
+
+  .emodzy:nth-child(1n) {
+    width: 120px;
+    height: 120px;
+  }
+
+  .seventh_block_ul {
+    font-weight: 400;
+    font-size: 9.28125px;
+    line-height: 150%;
+    letter-spacing: 0.035em;
+  }
+
+  .advantage_text {
+    font-weight: 600;
+    font-size: 11.3438px;
+    line-height: 14px;
+    letter-spacing: 0.035em;
+    text-transform: lowercase;
+    font-family: RotaNormal;
+  }
+
+  .review {
+    font-family: RotaNormal;
+  }
+
+  .review_text {
+    font-weight: 400;
+    font-size: 9.28125px;
+    line-height: 150%;
+    letter-spacing: 0.035em;
+  }
+
+  .footer_bottom {
+    font-family: RotaNormal;
+    font-weight: 400;
+    font-size: 9.28125px;
+    line-height: 150%;
+    letter-spacing: 0.035em;
+  }
+
+  .category__top-cell_left {
+    width: 20.0795454545%;
+  }
+
+  .category__top-cell_right {
+    width: 73.795455%;
+  }
+
+  .seventh_block_main_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    letter-spacing: 0.035em;
+  }
+
+  .eleventh_block_right_part {
+    margin-bottom: auto;
+  }
+
+  .second_seventh_block_main_text_first {
+    font-weight: 400;
+    font-size: 9.28125px;
+    line-height: 150%;
+    /* or 14px */
+
+    letter-spacing: 0.035em;
+  }
+}
+
+@media (max-width: 768px) {
+  .category__top-cell_right {
+    width: 77.795455%;
+  }
+
+  .case-flex {
+    flex-direction: column;
+  }
+
+  .case {
+    height: 765px;
+    width: 687px;
+  }
+
+  .case_info_block {
+    margin-top: 161rem;
+    margin-left: 4rem;
+  }
+
+  .case_subtext {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+  }
+  .switcher__text {
+    padding: 0px 4.2rem;
+  }
+
+  .switcher__text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.035em;
+    text-transform: lowercase;
+  }
+
+  .advantages {
+    column-gap: 8.5rem;
+  }
+
+  .request_top {
+    flex-direction: column;
+  }
+
+  .request_left {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .request_icon_menu {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .seventhBlock .left_part {
+    width: 100%;
+  }
+
+  .seventhBlock .right_part {
+    width: 100%;
+  }
+
+  .seventhBlock .flex_no_wrap {
+    flex-wrap: wrap;
+  }
+
+  .seventhBlock .seventh_block_ul {
+    margin-top: 0;
+  }
+
+  .seventhBlock .h2 {
+    width: 50%;
+  }
+
+  .eleventhBlock .left_part {
+    width: 100%;
+  }
+
+  .eleventhBlock .right_part {
+    width: 100%;
+  }
+
+  .seventhBlock .second_left_part {
+    width: 50%;
+  }
+
+  .seventhBlock .second_right_part {
+    width: 42%;
+  }
+
+  .btn__text svg {
+    width: 15px;
+  }
+
+  .second_seventh_block_main_text_first {
+    width: auto;
+  }
+
+  .second_left_part .h2 {
+    width: auto;
   }
 }
 
