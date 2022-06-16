@@ -1517,6 +1517,151 @@ footer {
   .seventhBlock .second_left_part {
     width: 100%;
   }
+
+  .black_back {
+    padding-top: 70px;
+  }
+
+  .request_input_white {
+    border-bottom: 1px solid #fff;
+  }
+
+  .request_input_white::placeholder {
+    color: #fff;
+  }
+
+  .request_button_text_white {
+    margin-right: 41px;
+  }
+
+  .seventhBlock .black_back {
+    padding-right: 16px;
+    padding-bottom: 71px;
+  }
+
+  .seventhBlock .second_right_part {
+    flex-direction: row;
+    margin-left: 0;
+    column-gap: 20px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 31px;
+  }
+
+  .eleventh_block_right_part img {
+    width: 242px;
+    height: 241px;
+  }
+
+  .twelfthBlock .h2 {
+    width: 100%;
+  }
+
+  .advantage_text {
+    width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .blog_element {
+    min-width: 244px;
+    height: 171px;
+  }
+
+  .blog_news {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+
+  .blog_title {
+    font-size: 18.5625px;
+  }
+
+  .blog_tag {
+    left: 30px;
+    bottom: 65%;
+  }
+
+  .blog_title {
+    left: 30px;
+  }
+
+  .reviews_block {
+    margin-top: 100px;
+  }
+
+  .review {
+    padding: 22px 18px 4rem 20px;
+    min-width: 202px;
+    border: 2px solid #222222;
+    outline: none;
+  }
+
+  .review_text {
+    font-size: 14px;
+  }
+
+  .reviewer_name {
+    font-size: 18.5625px;
+  }
+
+  .reviewer_job {
+    font-size: 12px;
+  }
+
+  .review_data {
+    font-size: 12px;
+  }
+
+  .reviews {
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+
+  .footer__top .footer_cell:nth-child(1) {
+    padding-right: 0;
+  }
+
+  .footer__top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__menu {
+    padding: 0;
+    row-gap: 0;
+  }
+
+  .footer__menu .menu_item {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .menu_item a {
+    font-size: 24px;
+  }
+
+  .footer__menu .phone_footer {
+    margin-bottom: 2px;
+  }
+
+  .phone_footer a {
+    font-size: 14px;
+  }
+
+  .link_footer a {
+    font-size: 14px;
+  }
+
+  .footer_bottom {
+    text-align: center;
+  }
+
+  .footer_icon img {
+    width: 10px;
+  }
 }
 
 @-webkit-keyframes wind {
