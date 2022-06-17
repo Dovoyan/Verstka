@@ -65,6 +65,7 @@ header {
   top: 0;
   background: #222222;
   z-index: 10;
+  overflow: auto;
 }
 
 .mobil_menu_icon {
